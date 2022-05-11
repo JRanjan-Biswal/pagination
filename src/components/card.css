@@ -1,0 +1,45 @@
+
+.card {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    border: 1px solid black;
+    margin-top: 3px ;
+    position: relative;
+}
+
+.cardHeader {
+    /* font-size: 2px !important; */
+    
+    display: flex !important;
+    justify-content: space-between;
+    padding: 0.2em !important;
+}
+
+.avatar {
+    height: 1.2em !important;
+    width: 1.2em !important;
+}
+.cardTitle {
+    display: inline-block;
+    max-height: 10px !important;
+    padding-top: -10px !important;
+}
+
+.cardTitleTypo {
+    padding: 1px !important;
+}
+
+.userDate {
+    font-size: 0.8em !important;
+}
+
+.expandButton {
+    display: inline-block !important;
+    background-color: rgb(224, 224, 245);
+    padding: 0px !important;
+    margin: 0 5px 5px 0;
+    border-radius: 20%;
+    position: absolute;
+    right: 0;
+}
